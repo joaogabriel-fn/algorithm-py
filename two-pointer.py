@@ -1,9 +1,7 @@
-#Leetcode 557
-
 class Solution:
   def reverseWords_manual(s): # O(n)
     res = ''
-    l, r = 0, 0
+    l, r = 0, 0  # Pointer
 
     while r < len(s):
       if s[r] != ' ':
